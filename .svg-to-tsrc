@@ -1,0 +1,32 @@
+{
+		"conversionType": "files",
+		"srcFiles": [
+			"./svg-icons/**/*.svg"
+		],
+		"outputDirectory": "./dist",
+		"interfaceName": "RDSIcons",
+		"typeName": "rIcons",
+		"prefix": "rIcons",
+		"generateType": true,
+		"exportCompleteIconSet": true,
+		"optimizeForLazyLoading": true,
+		"modelFileName": "rds-icons.model.ts",
+		"compileSources": true,
+		"delimiter": "KEBAB",
+		"svgoConfig": {
+			"plugins": [
+				{ "name": "preset-default" },
+				"sortAttrs",
+				"removeScriptElement",
+				"removeDimensions",
+				"removeScriptElement",
+				"removeDimensions",
+				{
+					"name": "convertColors",
+					"params": {
+						"currentColor": true
+					}
+				}
+			]
+		}
+}
