@@ -1,7 +1,7 @@
 {
 	"name": "@aherrahul/rds-icons",
-	"version": "0.0.1",
-	"description": "rds icons",
+	"version": "0.0.3",
+	"description": "A rds icons built by rahul aher, using for RDS dessign system and Vue components used in project",
 	"main": "index.js",
 	"files": [
 		"dist/*"
@@ -19,12 +19,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Aherrahul/rds-icons.git"
+		"url": "git+https://github.com/AherRahul/rds-icon.git"
 	},
 	"bugs": {
-		"url": "https://github.com/Aherrahul/rds-icons/issues"
+		"url": "https://github.com/AherRahul/rds-icon/issues"
 	},
-	"homepage": "https://github.com/Aherrahul/rds-icons#readme",
+	"homepage": "https://github.com/AherRahul/rds-icon#readme",
 	"devDependencies": {
 		"cpx": "^1.5.0",
 		"git-cz": "^4.7.1",
@@ -35,6 +35,20 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	}
-
+	},
+	"keywords": [
+		"vueJS",
+		"vue3",
+		"vue2",
+		"design",
+		"design-system",
+		"library",
+		"icon",
+		"icons",
+		"icons component",
+		"icons-component-library",
+		"icons-library",
+		"UI-components-icons",
+		"vite"
+	]
 }
