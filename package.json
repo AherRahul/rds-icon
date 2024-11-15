@@ -1,6 +1,6 @@
 {
 	"name": "@aherrahul/rds-icons",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A rds icons built by rahul aher, using for RDS dessign system and Vue components used in project",
 	"main": "index.js",
 	"files": [
