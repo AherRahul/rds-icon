@@ -1,5 +1,5 @@
 [build]
   publish = "dist"
-  command = "npm run build:showcase"
+  command = "npm install -g http-server && npm run build:showcase && http-server ./dist/showcase -o"
 [build.environment]
   NODE_VERSION = "18"
